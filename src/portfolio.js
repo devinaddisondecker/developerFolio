@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  username: "Devin Addison Decker",
+  title: "Hi all, I'm Devin Decker",
+  subTitle: emoji( "A Senior Software Engineer 🚀 specializing in AI-powered applications, Large Language Models (GPT-4o, Claude), RAG systems, and scalable cloud-native platforms using .NET, Python, AWS, Azure, and Kubernetes." ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1YmNDEQiX3H-5xtZPLM4EdXi9P97YVSU4MFgW5k9-738/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/devinaddisondecker",
+  linkedin: "https://www.linkedin.com/in/devin-decker-5b8396414",
+  gmail: "devindecker112399@gmail.com",
+  gitlab: "https://gitlab.com/devinaddisondecker",
+  facebook: "https://www.facebook.com/devinaddisondecker",
+  medium: "https://medium.com/@devindecker112399",
+  stackoverflow: "https://stackoverflow.com/users/10422806/devindecker112399",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,75 +47,111 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "SENIOR SOFTWARE ENGINEER BUILDING AI SYSTEMS, LLM APPLICATIONS, AND SCALABLE CLOUD PLATFORMS",
+
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build production-ready AI applications using Large Language Models (GPT-4o, Claude), Retrieval-Augmented Generation (RAG), LangChain, semantic search, and vector databases."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Design scalable cloud-native backend systems, REST APIs, distributed systems, and microservices using C#, .NET Core, Python, Node.js, AWS, and Azure."
+    ),
+    emoji(
+      "⚡ Architect and deploy secure, reliable cloud infrastructure using Docker, Kubernetes, Terraform, AWS serverless services, Azure, and automated CI/CD pipelines."
+    ),
+    emoji(
+      "⚡ Develop intelligent automation workflows with prompt engineering, LLM evaluation, multi-agent systems, and enterprise AI integrations."
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make sure to include the correct Font Awesome classname
+     https://fontawesome.com/icons */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "C# / .NET",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Go",
+      fontAwesomeClassname: "fab fa-golang"
     },
     {
-      skillName: "sql-database",
+      skillName: "AI / LLM",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "RAG / LangChain",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Vector Databases",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-dharmachakra"
+    },
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fas fa-code-branch"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true
 };
 
 // Education Section
@@ -126,25 +160,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Northeastern University",
+      logo: require("./assets/images/northeasternLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2014 - May 2018",
+      desc: "Completed a Bachelor of Science in Computer Science with a strong focus on software engineering, distributed systems, cloud computing, databases, and algorithms.",
+      descBullets: [
+        "Studied software engineering, data structures & algorithms, operating systems, databases, and computer networks.",
+        "Built full-stack software projects using modern programming languages and software development best practices.",
+        "Graduated in 2018."
+      ]
     }
-  ]
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -153,20 +180,29 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "AI / LLM Systems",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend & Distributed Systems",
+      progressPercentage: "92%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Cloud Architecture (AWS / Azure)",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "DevOps & Kubernetes",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Data & Vector Databases",
+      progressPercentage: "82%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
+  
+  displayCodersrank: false // Set true to display CodersRank badges
+  };
 
 // Work experience section
 
@@ -174,29 +210,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Software Engineer (AI Systems)",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoftLogo.png"),
+      date: "November 2023 – Present",
+      desc: "Designing and building enterprise AI applications and cloud-native backend systems focused on automation, scalability, and production reliability.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed LLM-powered applications using GPT-4o, Claude, LangChain, and Retrieval-Augmented Generation (RAG).",
+        "Built scalable backend services with .NET Core, AWS Lambda, API Gateway, and DynamoDB.",
+        "Designed AI workflows using AWS Bedrock and vector-based retrieval to improve contextual accuracy.",
+        "Implemented CI/CD pipelines with Azure DevOps and GitHub Actions to streamline deployments and improve release reliability."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Full Stack Engineer",
+      company: "Revscale AI",
+      companylogo: require("./assets/images/revscaleLogo.png"),
+      date: "August 2021 – October 2023",
+      desc: "Led development of enterprise cloud platforms, distributed backend systems, and DevOps automation for scalable business applications.",
+      descBullets: [
+        "Designed AWS serverless and microservices architectures using Lambda, API Gateway, ECS, and EKS.",
+        "Built high-performance full-stack applications supporting enterprise workflow automation.",
+        "Automated infrastructure provisioning using Terraform, Docker, Kubernetes (EKS/AKS), and GitHub Actions.",
+        "Designed secure hybrid-cloud environments using IAM, KMS, VPC networking, and cloud security best practices."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "LeverX",
+      companylogo: require("./assets/images/leverxLogo.png"),
+      date: "May 2018 – July 2021",
+      desc: "Developed enterprise software solutions, REST APIs, and Azure cloud infrastructure for large-scale business applications.",
+      descBullets: [
+        "Built scalable full-stack applications using C#, .NET, JavaScript, SQL, and modern web technologies.",
+        "Designed REST APIs and optimized relational and NoSQL database architectures.",
+        "Automated Azure infrastructure using ARM Templates and Bicep (Infrastructure as Code).",
+        "Managed Azure services including VMs, VNets, Azure AD, Blob Storage, RBAC, and monitoring solutions."
+      ]
     }
   ]
 };
@@ -216,9 +266,54 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Nextu",
+      projectDesc: "Digital recruitment and staffing. We look at people, not paper.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/emiratesDiamonds.webp"),
+      projectName: "EmiratesDiamonds",
+      projectDesc: "This website is operated by Emiratesdiamonds. Throughout the site, the terms “we”, “us” and “our” refer to Emiratesdiamonds. Emiratesdiamonds offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://emiratesdiamonds.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/white_turtle_beauty.avif"),
+      projectName: "WHITE TURTLE BEAUTY",
+      projectDesc: "Botanical Skincare for Stressed Skin – WHITE TURTLE BEAUTY",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://whiteturtlebeauty.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/levinfurniture.png"),
+      projectName: "LevinFurniture",
+      projectDesc: "At Levin Furniture & Mattress, we are dedicated to helping you find furniture and mattresses that best fit your style and budget. To do this, we offer high quality living room furniture, bedroom furniture, dining room sets, mattresses, and much more at affordable prices. Stop into any of our Altoona, Canton, Cleveland, Greensburg, Pittsburgh, State College, or Youngstown stores to see our amazing selection and deals.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://levinfurniture.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Healthy Work Culture is one of the most important determinants to absenteeism, productivity and employee retention.",
       footerLink: [
         {
           name: "Visit Website",
@@ -228,16 +323,65 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/loyolapress.png"),
+      projectName: "LOYOLAPRESS",
+      projectDesc: "Loyola Press was founded in 1912 by Father William P. Lyons SJ as a non-profit Catholic publishing ministry of the Midwest Province of the Society of Jesus. His first published work was Loyola University’s four-page school newspaper, The Maroon and Gold. Soon after, however, Fr. Lyons began publishing college textbooks, and Loyola Press swiftly grew in size and scope, having now served more than 40 million children and adults as they seek to grow academically, personally, and spiritually with assistance and inspiration from our textbooks, spirituality books for adults and children, and a growing array of multi-media resources.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://loyolapress.com/"
         }
+        //  you can add extra buttons here.
       ]
-    }
+    },
+    {
+      image: require("./assets/images/MDDV.png"),
+      projectName: "MDDV",
+      projectDesc: "MDDV replaces fragmented maintenance manuals, wiring diagrams, parts catalogs, and training docs - automatic reporting at the most granular level, using AI Joe, leading to predictive logistics.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://mddv.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/green-legal-logo-sm.png"),
+      projectName: "Green Legal",
+      projectDesc: "At Green & Schafle, we work tirelessly every day to make sure our clients’ cases become our causes. Our clients have suffered some of the most tragic and catastrophic outcomes through no fault of their own and it is our job to not only advocate for them to get justice, but to also listen to their hardships and care about them as people so that we can be the best trial lawyers we can for their cases. At Green & Schafle, we advocate for our clients through three core principles:",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://greenlegalteam.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/price-logo-red-mobile.webp"),
+      projectName: "Price.com",
+      projectDesc: "Price.com brings you savings with our comparison shopping tools, coupons, cashback, loyalty points, price alerts and other services. Unlike classic price comparison sites that focus on matching only new products, our technology also enables the matching of new products to, used, refurbished, generic, rental and offline. This enables the comparison options to span hundreds of thousands of merchants to provide full transparency and the most savings to you.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://price.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/ocsri.png"),
+      projectName: "OKLAHOMA CANCER SPECIALISTS AND REARCH INSTITUTE",
+      projectDesc: "Oklahoma Cancer Specialists and Research Institute offers the region’s most comprehensive cancer care. As a community-based oncology practice with nearly 400 staff members, including a combined 40 physicians and allied health professionals, we focus on providing high-quality, value-based care for Oklahomans.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ocsri.org/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -372,8 +516,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 917 920 6159",
+  email_address: "devindecker112399@gmail.com"
 };
 
 // Twitter Section
