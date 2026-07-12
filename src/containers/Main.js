@@ -20,14 +20,14 @@ import "./Main.scss";
 
 const Main = () => {
   const darkPref =
-  typeof window !== "undefined" && typeof window.matchMedia === "function"
-    ? window.matchMedia("(prefers-color-scheme: dark)")
-    : {matches: false};
+    typeof window !== "undefined" && typeof window.matchMedia === "function"
+      ? window.matchMedia("(prefers-color-scheme: dark)")
+      : {matches: false};
 
-const [isDark, setIsDark] = useLocalStorage(
-  "isDark",
-  Boolean(darkPref?.matches)
-);
+  const [isDark, setIsDark] = useLocalStorage(
+    "isDark",
+    Boolean(darkPref?.matches)
+  );
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 

@@ -22,7 +22,9 @@ const illustration = {
 const greeting = {
   username: "Devin Addison Decker",
   title: "Hi all, I'm Devin Decker",
-  subTitle: emoji( "A Senior Software Engineer 🚀 specializing in AI-powered applications, Large Language Models (GPT-4o, Claude), RAG systems, and scalable cloud-native platforms using .NET, Python, AWS, Azure, and Kubernetes." ),
+  subTitle: emoji(
+    "A Senior Software Engineer 🚀 specializing in AI-powered applications, Large Language Models (GPT-4o, Claude), RAG systems, and scalable cloud-native platforms using .NET, Python, AWS, Azure, and Kubernetes."
+  ),
   resumeLink:
     "https://docs.google.com/document/d/1YmNDEQiX3H-5xtZPLM4EdXi9P97YVSU4MFgW5k9-738/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -171,7 +173,7 @@ const educationInfo = {
         "Graduated in 2018."
       ]
     }
-  ],
+  ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -200,9 +202,9 @@ const techStack = {
       progressPercentage: "82%"
     }
   ],
-  
+
   displayCodersrank: false // Set true to display CodersRank badges
-  };
+};
 
 // Work experience section
 
@@ -268,7 +270,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
-      projectDesc: "Digital recruitment and staffing. We look at people, not paper.",
+      projectDesc:
+        "Digital recruitment and staffing. We look at people, not paper.",
       footerLink: [
         {
           name: "Visit Website",
@@ -279,7 +282,8 @@ const bigProjects = {
     {
       image: require("./assets/images/emiratesDiamonds.webp"),
       projectName: "EmiratesDiamonds",
-      projectDesc: "This website is operated by Emiratesdiamonds. Throughout the site, the terms “we”, “us” and “our” refer to Emiratesdiamonds. Emiratesdiamonds offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.",
+      projectDesc:
+        "This website is operated by Emiratesdiamonds. Throughout the site, the terms “we”, “us” and “our” refer to Emiratesdiamonds. Emiratesdiamonds offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.",
       footerLink: [
         {
           name: "Visit Website",
@@ -301,7 +305,8 @@ const bigProjects = {
     {
       image: require("./assets/images/levinfurniture.png"),
       projectName: "LevinFurniture",
-      projectDesc: "At Levin Furniture & Mattress, we are dedicated to helping you find furniture and mattresses that best fit your style and budget. To do this, we offer high quality living room furniture, bedroom furniture, dining room sets, mattresses, and much more at affordable prices. Stop into any of our Altoona, Canton, Cleveland, Greensburg, Pittsburgh, State College, or Youngstown stores to see our amazing selection and deals.",
+      projectDesc:
+        "At Levin Furniture & Mattress, we are dedicated to helping you find furniture and mattresses that best fit your style and budget. To do this, we offer high quality living room furniture, bedroom furniture, dining room sets, mattresses, and much more at affordable prices. Stop into any of our Altoona, Canton, Cleveland, Greensburg, Pittsburgh, State College, or Youngstown stores to see our amazing selection and deals.",
       footerLink: [
         {
           name: "Visit Website",
@@ -313,7 +318,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
-      projectDesc: "Healthy Work Culture is one of the most important determinants to absenteeism, productivity and employee retention.",
+      projectDesc:
+        "Healthy Work Culture is one of the most important determinants to absenteeism, productivity and employee retention.",
       footerLink: [
         {
           name: "Visit Website",
@@ -325,7 +331,8 @@ const bigProjects = {
     {
       image: require("./assets/images/loyolapress.png"),
       projectName: "LOYOLAPRESS",
-      projectDesc: "Loyola Press was founded in 1912 by Father William P. Lyons SJ as a non-profit Catholic publishing ministry of the Midwest Province of the Society of Jesus. His first published work was Loyola University’s four-page school newspaper, The Maroon and Gold. Soon after, however, Fr. Lyons began publishing college textbooks, and Loyola Press swiftly grew in size and scope, having now served more than 40 million children and adults as they seek to grow academically, personally, and spiritually with assistance and inspiration from our textbooks, spirituality books for adults and children, and a growing array of multi-media resources.",
+      projectDesc:
+        "Loyola Press was founded in 1912 by Father William P. Lyons SJ as a non-profit Catholic publishing ministry of the Midwest Province of the Society of Jesus. His first published work was Loyola University’s four-page school newspaper, The Maroon and Gold. Soon after, however, Fr. Lyons began publishing college textbooks, and Loyola Press swiftly grew in size and scope, having now served more than 40 million children and adults as they seek to grow academically, personally, and spiritually with assistance and inspiration from our textbooks, spirituality books for adults and children, and a growing array of multi-media resources.",
       footerLink: [
         {
           name: "Visit Website",
@@ -337,7 +344,8 @@ const bigProjects = {
     {
       image: require("./assets/images/MDDV.png"),
       projectName: "MDDV",
-      projectDesc: "MDDV replaces fragmented maintenance manuals, wiring diagrams, parts catalogs, and training docs - automatic reporting at the most granular level, using AI Joe, leading to predictive logistics.",
+      projectDesc:
+        "MDDV replaces fragmented maintenance manuals, wiring diagrams, parts catalogs, and training docs - automatic reporting at the most granular level, using AI Joe, leading to predictive logistics.",
       footerLink: [
         {
           name: "Visit Website",
@@ -349,7 +357,8 @@ const bigProjects = {
     {
       image: require("./assets/images/green-legal-logo-sm.png"),
       projectName: "Green Legal",
-      projectDesc: "At Green & Schafle, we work tirelessly every day to make sure our clients’ cases become our causes. Our clients have suffered some of the most tragic and catastrophic outcomes through no fault of their own and it is our job to not only advocate for them to get justice, but to also listen to their hardships and care about them as people so that we can be the best trial lawyers we can for their cases. At Green & Schafle, we advocate for our clients through three core principles:",
+      projectDesc:
+        "At Green & Schafle, we work tirelessly every day to make sure our clients’ cases become our causes. Our clients have suffered some of the most tragic and catastrophic outcomes through no fault of their own and it is our job to not only advocate for them to get justice, but to also listen to their hardships and care about them as people so that we can be the best trial lawyers we can for their cases. At Green & Schafle, we advocate for our clients through three core principles:",
       footerLink: [
         {
           name: "Visit Website",
@@ -361,7 +370,8 @@ const bigProjects = {
     {
       image: require("./assets/images/price-logo-red-mobile.webp"),
       projectName: "Price.com",
-      projectDesc: "Price.com brings you savings with our comparison shopping tools, coupons, cashback, loyalty points, price alerts and other services. Unlike classic price comparison sites that focus on matching only new products, our technology also enables the matching of new products to, used, refurbished, generic, rental and offline. This enables the comparison options to span hundreds of thousands of merchants to provide full transparency and the most savings to you.",
+      projectDesc:
+        "Price.com brings you savings with our comparison shopping tools, coupons, cashback, loyalty points, price alerts and other services. Unlike classic price comparison sites that focus on matching only new products, our technology also enables the matching of new products to, used, refurbished, generic, rental and offline. This enables the comparison options to span hundreds of thousands of merchants to provide full transparency and the most savings to you.",
       footerLink: [
         {
           name: "Visit Website",
@@ -373,7 +383,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ocsri.png"),
       projectName: "OKLAHOMA CANCER SPECIALISTS AND REARCH INSTITUTE",
-      projectDesc: "Oklahoma Cancer Specialists and Research Institute offers the region’s most comprehensive cancer care. As a community-based oncology practice with nearly 400 staff members, including a combined 40 physicians and allied health professionals, we focus on providing high-quality, value-based care for Oklahomans.",
+      projectDesc:
+        "Oklahoma Cancer Specialists and Research Institute offers the region’s most comprehensive cancer care. As a community-based oncology practice with nearly 400 staff members, including a combined 40 physicians and allied health professionals, we focus on providing high-quality, value-based care for Oklahomans.",
       footerLink: [
         {
           name: "Visit Website",
@@ -381,7 +392,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
